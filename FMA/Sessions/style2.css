@@ -1,0 +1,142 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Outfit", serif !important;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+button{
+    font-family: "Outfit", serif !important;
+    font-weight: 600;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.container{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.border-gray{
+    border: 1.5px solid #d2d2d2;
+}
+
+.text-center{
+    align-items: center;
+    text-align: center;
+}
+
+.gap-2{
+    gap: 2rem;
+}
+
+.text-logo{
+    color: #242c54;
+}
+.text-gray{
+    color: gray;
+}
+
+/**Titulli***/
+.prices-title h1{
+    padding-inline: 30%;
+}
+
+.prices-title p{
+    padding-inline: 20%;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.free-trial li{
+    list-style: none;
+    padding-block: 5px;
+}
+
+.gap-1{
+    gap: 1rem;
+}
+
+/**butonat***/
+
+.prices-buttons{
+    border: 1.5px solid #d2d2d2;
+    padding: 2px;
+    border-radius: 20px;
+}
+
+.submit{
+    background-color: blue;
+    color: white;
+    border: 0px;
+    padding-block: 7px;
+    padding-inline: 20px;
+    border-radius: 20px;
+}
+
+.blank-button{
+    background-color: transparent;
+    border: 0px;
+    color: gray;
+    padding-block: 7px;
+    padding-inline: 20px;
+}
+
+/**PRICE***/
+
+.card{
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    border-radius: 10px;
+    height: fit-content;
+    width: 220px;
+}
+
+.card h1,h3{
+    color: #242c54;
+}
+
+.card p{
+    color: gray;
+}
+
+.price{
+    background: linear-gradient(180deg, white, #eef5fa);
+    padding-block: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.price h1{
+    font-size: 35px;
+}
+
+.month{
+    font-size: 14px;
+    color: gray;
+}
+
+.trial{
+    padding-block: 20px;
+}
+
+.days p{
+    color: blue;
+}
